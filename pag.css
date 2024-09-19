@@ -1,30 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
 h1 {
+    margin: 40px;
     font-size: 60px;
     font-family: "Source Code Pro", monospace;
     text-align: center;
     position: relative;
 }
- 
+
+#pzin {
+    font-size: 36px;
+    margin: 10px;
+}
+
 header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     background-color: #33353e;
     height: 10vh;
 }
 
-nav > a {
+nav>a {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 35px;
+    display: inline-flex;
     text-decoration: none;
     color: black;
-    margin-top: 2em;
+    font-size: 20px;
 }
 
 body {
     background-color: #A1A2A6;
-}
-
-img {
-    width: 800px;
-    height: 500px;
 }
 
 #divfig {
@@ -32,7 +42,13 @@ img {
     justify-content: left;
 }
 
-img {
+#sonypng {
+    display: flex;
+    align-self: self-end;
+    margin-left: 50vmax;
+}
+
+#psvita {
     background-color: #4a4d5a;
     border: solid #4a4d5a;
     border-radius: 11px;
@@ -43,7 +59,5 @@ img {
     text-align: center;
 }
 
-a {
-    font-size: 30px;
-    text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
