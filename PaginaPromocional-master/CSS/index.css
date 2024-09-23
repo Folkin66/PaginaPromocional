@@ -5,14 +5,18 @@
 
 h1 {
     margin: 40px;
-    font-size: 60px;
+    font-size: 45px;
     font-family: "Source Code Pro", monospace;
     text-align: center;
     position: relative;
 }
 
+h2 {
+    text-align: center;
+}
+
 #pzin {
-    font-size: 36px;
+    font-size: 26px;
     margin: 10px;
 }
 
@@ -24,13 +28,40 @@ header {
     height: 10vh;
 }
 
+#esp:hover {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px 0px 0px 22px;
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(157, 135, 135);
+    font-size: 17px;
+}
+
+#ven:hover {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px 0px 0px 22px;
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(157, 135, 135);
+    font-size: 17px;
+}
+
+#Oqe:hover {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px 0px 0px 22px;
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(157, 135, 135);
+    font-size: 17px;
+}
+
 nav>a {
     font-family: "Josefin Sans", sans-serif;
-    margin: 35px;
+    margin: 0px 0px 0px 22px;
     display: inline-flex;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 body {
@@ -38,14 +69,16 @@ body {
 }
 
 #divfig {
+
     display: flex;
     justify-content: left;
 }
 
 #sonypng {
+    margin: 0vmax 15vmax;
+    align-content: center;
     display: flex;
-    align-self: self-end;
-    margin-left: 50vmax;
+    width: 300px
 }
 
 #psvita {
@@ -53,6 +86,7 @@ body {
     border: solid #4a4d5a;
     border-radius: 11px;
     box-shadow: #33353e 8px 8px 5px;
+    height: 300px;
 }
 
 #divref {
